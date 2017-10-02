@@ -1,0 +1,148 @@
+
+.body{
+	color: black;
+}
+#border{
+	border: solid;
+	color:black;
+	padding:20px;
+	background-image:url('9.jpg');
+	text-align:left;
+}
+.headin{
+	font-size:150%;
+	text-decoration:underline;
+	text-align:left;
+}
+.para{
+	font-family: verdana;
+    font-size: 100%;
+}
+
+#image{
+	position:absolute;
+	right:50px;
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+}
+#ul {
+    list-style-type: none;
+    margin: 0;
+	padding: 0;}
+.videoposition{
+
+		position: absolute;
+		right:40px;
+		top:60%;	
+	}
+
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:2px solid ;
+	font-weight: bold ;
+     font-size: 17px;
+    
+}
+
+#li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+	}
+
+.topnav a.active {
+    background-color:black;
+    color: white;
+}
+li a.active {
+    color:black;
+	}
+	#wrap{
+		width:100%;
+		margin:0 auto;
+		text-align:left;
+		margin-top:8px;
+		padding:5px;
+		background-image:url('9.jpg');
+		font-family:AvenirLTStd, Arial, Helvetica, sans-serif;
+		font-size:13px;    
+		line-height:16px;
+	}
+	#wrap .cont_details fieldset,.cont_order fieldset{
+		margin:10px;
+		padding:20px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;
+		border-radius: 10px;
+	}
+	#wrap h3{
+		font-size:16px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		color:#000;
+		font-weight:bold;
+		font-style:normal;
+		padding-bottom:10px;
+	}
+	#wrap .cont_details input{
+		margin-bottom:10px;
+		color:#000;
+		
+	}
+	#wrap label{
+		display:block;
+		font-size:12px;
+		color:#000;
+		font-weight:bold;
+	}
+	#wrap label.inlinelabel
+	{
+		display:inline;
+	}
+	#wrap .cont_order input{
+		margin-bottom:5px;
+	}
+	#wrap .cont_order p{
+		padding-top:5px;
+	}
+	
+	#wrap input[type="radio"]
+	{
+	margin-top:8px;
+	margin-bottom:8px;
+	}
+	
+	#wrap input[type="text"]:hover,
+	#wrap input[type="text"]:active {
+	background-color: #AB98FA;
+	}
+	
+	#wrap input#submit
+	{
+	margin:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+	#wrap div#totalPrice
+	{
+		padding:10px;
+		font-weight:bold;
+		background-color: #7058D4;
+	}
+	
+	#wrap label.radiolabel
+	{
+	font-weight:normal;
+	 display:inline;
+	}

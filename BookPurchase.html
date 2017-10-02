@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	
+	 <title>Srinivas</title>	 
+          <link rel="stylesheet" type="text/css" href="pakala_srinivas.css"/>
+          
+		 <ul id="ul">
+    <u><center><h3=underline>BOOK PRICE CALCULATOR</h3></center></u>
+	<li style="float:left"><a class="active" href="pakala_nagateja seetharama srinivas prakash.html">SrinivasA02</a></li>
+   <li style="float:right"><a class="active" href="contact.html">CONTACT</a></li>
+   <li style="float:right"><a class="active" href="BookPurchase.html">BOOK PURCHASES</a></li>
+   <li style="float:right"><a class="active" href="pakala_nagateja seetharama srinivas prakash.html">HOME</a></li>
+</ul>
+</head>
+<body id="border">
+<div><br>
+    <script src="Book.js"></script>
+    <body onload='hideTotal()'>
+        <div id="wrap">
+            <form action="" id="bookform" onsubmit="return false;">
+            <div>
+                <div class="cont_order">
+                   <fieldset>
+                    <legend>Purchase your Book!</legend>
+                    <label >Select A Book Genre</label>
+                    <label class='radiolabel'><input type="checkbox"  name="selectedbook" value="satire"onclick="calculateTotal()" />Satire($20)</label><br/>
+                    <label class='radiolabel'><input type="checkbox"  name="selectedbook" value="comedy" onclick="calculateTotal()" />Comedy($25)</label><br/>
+                    <label class='radiolabel'><input type="checkbox"  name="selectedbook" value="drama" onclick="calculateTotal()" />Drama($35)</label><br/>
+                    <label class='radiolabel'><input type="checkbox"  name="selectedbook" value="adventure" onclick="calculateTotal()" />Action and Adventure($75)</label><br/>
+                    <br/>
+                    <label >Select An Author</label>
+             
+                    <select id="filling" name='filling' onchange="calculateTotal()">
+                    <option value="None($0)">Select</option>
+                    <option value="Denise case($15)">Denise Case($15)</option>
+                    <option value="stephenking($15)">Stephen King($15)</option>
+                    <option value="Salmanrushdie($10)">Salman Rushdie($10)</option>
+                    <option value="toni($11)">Toni Morrison($11)</option>
+                    <option value="Roy($10)">Roy($10)</option>
+                    <option value="Dr.Seuss($25)">Dr.Seuss($25)</option>
+                    <option value="Annie($19)">Annie Rice($19)</option>
+                    <option value="neil($25)">Neil Gaiman($25)</option>
+                   </select>
+                    <br/>
+                    
+                    <p>
+                    <label for='includecd' class="inlinelabel">Include C.D($5)</label>
+                   <input type="checkbox" id="includecd" name='includecd' onclick="calculateTotal()" />
+                   </p>
+                   
+                    <p>
+                    <label class="inlinelabel" for='includeinscription'>Want To Send This Book As A Gift($20)</label>
+                    <input type="checkbox" id="includeinscription" name="includeinscription" onclick="calculateTotal()" />
+                    <input type="text"  id="theinscription" name="theinscription" value="Enter Inscription"  />
+                    </p>
+                    <div id="totalPrice"></div>
+                    
+                    </fieldset>
+                        </div>
+                    
+                    <div class="cont_details">
+                        <fieldset>
+                        <h3>Contact Details</h3>
+                        <label for='name'>Name</label>
+                        <input type="text" id="name" name='name' />
+                        <br/>
+                        <label for='address'>Address</label>
+                        <input type="text" id="address" name='address' />
+                        <br/>
+                        <label for='phonenumber'>Phone Number</label>
+                        <input type="text"  id="phonenumber" name='phonenumber'/>
+                        <br/>
+                        </fieldset>
+                    </div>
+                    <input type='submit' id='submit' value='Submit' onclick="calculateTotal()" />
+                </div>  
+               </form>
+            </div>
+        
+        </body>
+    </html>

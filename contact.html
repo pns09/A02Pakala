@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+border: solid;
+	color:black;
+	padding:20px;
+   background-image:url('9.jpg');
+	text-decoration:underline;
+
+}
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #black;
+    padding: 20px;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:2px solid ;
+	font-weight: bold ;
+     font-size: 17px;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+	}
+
+.topnav a.active {
+    background-color:black;
+    color: white;
+}
+li a.active {
+    color:black;
+	}
+	
+#image{
+	position:absolute;
+	right:80px;
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+
+</style>
+
+<body> 
+<ul id="ul">
+<u><center><h3=underline>CONTACT</h3></center></u>
+   <li style="float:left"><a class="active" href="pakala_nagateja seetharama srinivas prakash.html">SrinivasA02</a></li>
+   <li style="float:right"><a class="active" href="contact.html">CONTACT</a></li>
+   <li style="float:right"><a class="active" href="BookPurchase.html">BOOK PURCHASES</a></li>
+   <li style="float:right"><a class="active" href="pakala_nagateja seetharama srinivas prakash.html">HOME</a></li>
+</ul>
+
+<div class="container">
+  
+	<h3>First Name</h3>
+    <label for="fname"></label>
+    <input type="text" id="fname" name="First Name" placeholder="Your name..">
+	<img id="image" src="contact.jpg" alt ="srinivas">
+	<h3>Last Name</h3>
+    <label for="lname"></label>
+    <input type="text" id="lname" name="Last Name" placeholder="Your last name..">
+	<h3>Comments</h3>
+    <label for="comments"></label>
+    <textarea id="subject" name="subject" placeholder="Add your comment here...." style="height:130px"></textarea>
+
+    <input type="submit" value="Submit">
+
+</head>
+</div>
+</body>
+</html>
